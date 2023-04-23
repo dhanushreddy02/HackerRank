@@ -1,0 +1,7 @@
+a=input()
+b=set(map(int,input().split(' ')))
+c=set(map(int,input().split(' ')))
+d=set(map(int,input().split(' ')))
+k=len(b.intersection(c))
+y=len(b.intersection(d))
+print((k-y))
